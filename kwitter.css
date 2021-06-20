@@ -1,0 +1,34 @@
+#login_div {
+    text-align:center;
+    background-color:linen;
+    border: 4px solid mediumaquamarine;
+    border-radius: 20px;
+}
+
+body {
+    background-color:mediumturquoise;
+}
+
+.row {
+    padding-left: 30px;
+}
+
+.logo
+{
+	width: 80px;
+    margin-top: 300px;
+    border-radius: 40px;
+    margin-bottom: 300px;
+}
+
+#logo_div {
+    text-align:center;
+    background-color:mintcream;
+    border: 4px solid black;
+    border-radius: 25px;
+    margin-left:100px;
+}
+
+#button_div {
+    float:none;
+}
