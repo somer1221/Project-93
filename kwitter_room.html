@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Kwitter</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="kwitter_room.js"></script>
+<link rel="stylesheet" type="text/css" href="kwitter.css">
+</head>
+<body id="room_body">
+<div class="container">
+	
+	<h1 class="header">Kwitter</h1>
+<br>
+    <img src="logo.png" id="logoo">
+<br>
+		<div class="form-group">
+		  <h3 id="logged_in"></h4>
+            <br>
+          <h3>You've successfully logged in!</h5>
+            <br><br><br>
+<input type="text" placeholder="Enter A Room Code" class="form-control" id="room_code">
+		</div>
+<br>
+		<button class="btn btn-info" onclick="addRoom()">Add A Room</button>
+<br>
+<br><br><br><br><br>
+        <button type="button" class="btn btn-danger" id="logout_button" onclick="logout()">Log Out</button>
+</div>
+</body>
+</html>
